@@ -1,0 +1,9 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "loader": "tfc:contained_fluid",
+  "parent": "forge:item/default",
+  "textures": {
+    "base": "tfcscraping:item/ceramic/fired_mold/scraping_knife_blade_mold_empty",
+    "fluid": "tfcscraping:item/ceramic/fired_mold/scraping_knife_blade_mold_overlay"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "type": "tfc:advanced_shaped_crafting",
+  "pattern": [
+    "YXY"
+  ],
+  "key": {
+    "X": {
+      "item": "tfcscraping:metal/scraping_knife_blade/bismuth_bronze"
+    },
+    "Y": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "stack": {
+      "item": "tfcscraping:metal/scraping_knife/bismuth_bronze"
+    },
+    "modifiers": [
+      "tfc:copy_forging_bonus"
+    ]
+  },
+  "input_row": 0,
+  "input_column": 0
+}

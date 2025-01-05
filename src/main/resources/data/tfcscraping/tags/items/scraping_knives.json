@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "#tfcscraping:line_scraping",
+    "#tfcscraping:quarter_scraping",
+    "#tfcscraping:half_scraping",
+    "#tfcscraping:full_scraping"
+  ]
+}
