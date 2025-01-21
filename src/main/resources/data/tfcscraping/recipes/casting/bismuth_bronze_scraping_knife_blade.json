@@ -9,7 +9,7 @@
     "amount": 200
   },
   "result": {
-    "item": "tfc:metal/scraping_knife_blade/bismuth_bronze"
+    "item": "tfcscraping:metal/scraping_knife_blade/bismuth_bronze"
   },
   "break_chance": 1
 }

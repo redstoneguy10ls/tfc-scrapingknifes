@@ -46,7 +46,7 @@ def generate(rm: ResourceManager):
             # for tool in METAL_TOOL_HEADS:
             suffix = '_blade'# if tool in 'scraping_knife' else '_head'
             tool = 'scraping_knife'
-            advanced_shaped(rm, 'crafting/metal/scraping_knife/%s' % metal, ['YXY'], {'X': 'tfcscraping:metal/scraping_knife%s/%s' % (suffix, metal), 'Y': '#forge:rods/wooden'}, item_stack_provider('tfcscraping:metal/%s/%s' % (tool, metal), copy_forging=True), (0, 0)).with_advancement('tfcscraping:metal/%s%s/%s' % (tool, suffix, metal))
+            advanced_shaped(rm, 'crafting/metal/scraping_knife/%s' % metal, ['YXY'], {'X': 'tfcscraping:metal/scraping_knife%s/%s' % (suffix, metal), 'Y': '#forge:rods/wooden'}, item_stack_provider('tfcscraping:metal/%s/%s' % (tool, metal), copy_forging=True), (1, 0)).with_advancement('tfcscraping:metal/%s%s/%s' % (tool, suffix, metal))
 
     def item(_variant: str) -> str:
         return 'tfcscraping:metal/%s/%s' % (_variant, metal)
@@ -219,7 +219,7 @@ def casting_recipe(rm: ResourceManager, name_parts: utils.ResourceIdentifier, mo
     rm.recipe(('casting', name_parts), 'tfc:casting', {
         'mold': {'item': 'tfcscraping:ceramic/%s_mold' % mold},
         'fluid': fluid_stack_ingredient('%d tfc:metal/%s' % (amount, metal)),
-        'result': utils.item_stack('tfc:metal/%s/%s' % (mold, metal)) if result_item is None else utils.item_stack(result_item),
+        'result': utils.item_stack('tfcscraping:metal/%s/%s' % (mold, metal)) if result_item is None else utils.item_stack(result_item),
         'break_chance': break_chance
     })
 def heat_recipe(rm: ResourceManager, name_parts: ResourceIdentifier, ingredient: Json, temperature: float, result_item: Optional[Union[str, Json]] = None, result_fluid: Optional[str] = None, use_durability: Optional[bool] = None, chance: Optional[float] = None) -> RecipeContext:

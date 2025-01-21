@@ -10,6 +10,7 @@ def generate(rm: ResourceManager):
     rm.item_tag('tfcscraping:scraping_knives', '#tfcscraping:quarter_scraping')
     rm.item_tag('tfcscraping:scraping_knives', '#tfcscraping:half_scraping')
     rm.item_tag('tfcscraping:scraping_knives', '#tfcscraping:full_scraping')
+    rm.item_tag('tfcchannelcasting:accepted_in_mold_table','tfcscraping:ceramic/scraping_knife_blade_mold')
 
     for metal, metal_data in METALS.items():
         if 'tool' in metal_data.types:

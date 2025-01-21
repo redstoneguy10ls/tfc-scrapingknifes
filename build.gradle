@@ -127,8 +127,9 @@ dependencies {
 
     implementation fg.deobf("curse.maven:patchouli-306770:4636277")
 
-    implementation fg.deobf("curse.maven:terrafirmacraft-302973:5571484")
-    implementation fg.deobf("curse.maven:firmalife-453394:5775257")
+    implementation fg.deobf("curse.maven:terrafirmacraft-302973:6103204")
+    //implementation fg.deobf("curse.maven:tfc-casting-with-channels-820815:5046696")
+    //implementation fg.deobf("curse.maven:firmalife-453394:5775257")
 
 
     implementation fg.deobf("curse.maven:mouse-tweaks-60089:4581240")
