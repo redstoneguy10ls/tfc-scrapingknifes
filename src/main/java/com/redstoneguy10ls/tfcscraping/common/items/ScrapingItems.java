@@ -33,7 +33,7 @@ public class ScrapingItems {
 
     public static final RegistryObject<Item> UNFIRED_SCRAPING_KNIFE_MOLD = register("ceramic/unfired_scraping_knife_blade_mold");
     public static final RegistryObject<Item> SCRAPING_KNIFE_MOLD = register("ceramic/scraping_knife_blade_mold",
-            () -> new MoldItem(TFCConfig.SERVER.moldIngotCapacity, TFCTags.Fluids.USABLE_IN_TOOL_HEAD_MOLD, new Item.Properties()));
+            () -> new MoldItem(TFCConfig.SERVER.moldSwordBladeCapacity, TFCTags.Fluids.USABLE_IN_TOOL_HEAD_MOLD, new Item.Properties()));
 
 
     private static RegistryObject<Item> register(String name)
