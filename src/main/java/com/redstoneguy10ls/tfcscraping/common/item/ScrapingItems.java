@@ -34,7 +34,7 @@ public final class ScrapingItems {
 
 	public static final ItemId UNFIRED_SCRAPING_KNIFE_MOLD  = register("ceramic/unfired_scraping_knife_blade_mold");
 	public static final ItemId SCRAPING_KNIFE_MOLD  = register("ceramic/scraping_knife_blade_mold",
-			() -> new MoldItem(TFCConfig.SERVER.moldSwordBladeCapacity, TFCTags.Fluids.USABLE_IN_TOOL_HEAD_MOLD, new Item.Properties())
+			() -> new MoldItem(TFCConfig.SERVER.moldSwordBladeCapacity, TFCTags.Fluids.USABLE_IN_TOOL_HEAD_MOLD, new Properties())
 	);
 
 	private static Supplier<Item> basicItem() {

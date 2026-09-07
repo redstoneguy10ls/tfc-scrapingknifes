@@ -1,0 +1,14 @@
+{
+  "type": "tfc:casting",
+  "fluid": {
+    "amount": 200,
+    "fluid": "tfc:metal/black_bronze"
+  },
+  "mold": {
+    "item": "tfcscraping:ceramic/scraping_knife_blade_mold"
+  },
+  "result": {
+    "count": 1,
+    "id": "tfcscraping:metal/scraping_knife_blade/black_bronze"
+  }
+}

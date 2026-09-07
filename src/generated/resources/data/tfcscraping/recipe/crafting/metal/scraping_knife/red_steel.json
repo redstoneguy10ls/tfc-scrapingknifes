@@ -1,0 +1,26 @@
+{
+  "type": "tfc:advanced_shaped_crafting",
+  "input_column": 1,
+  "key": {
+    "S": {
+      "tag": "c:rods/wooden"
+    },
+    "X": {
+      "item": "tfcscraping:metal/scraping_knife_blade/red_steel"
+    }
+  },
+  "pattern": [
+    "SXS"
+  ],
+  "result": {
+    "modifiers": [
+      {
+        "type": "tfc:copy_forging_bonus"
+      }
+    ],
+    "stack": {
+      "count": 1,
+      "id": "tfcscraping:metal/scraping_knife/red_steel"
+    }
+  }
+}

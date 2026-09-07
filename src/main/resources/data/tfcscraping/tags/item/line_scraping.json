@@ -1,0 +1,10 @@
+{
+  "__comment__": "This file was automatically created by mcresources",
+  "replace": false,
+  "values": [
+    "tfcscraping:metal/scraping_knife/bismuth_bronze",
+    "tfcscraping:metal/scraping_knife/black_bronze",
+    "tfcscraping:metal/scraping_knife/bronze",
+    "tfcscraping:metal/scraping_knife/copper"
+  ]
+}
